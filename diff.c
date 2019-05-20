@@ -361,7 +361,6 @@ int filecheck(FILE* fp1, FILE* fp2) {
 
 
 void loadfiles(const char* filename1, const char* filename2) {
-  struct stat time;
   memset(buf, 0, sizeof(buf));
   memset(strings1, 0, sizeof(strings1));
   memset(strings2, 0, sizeof(strings2));
